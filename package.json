@@ -1,0 +1,35 @@
+{
+  "name": "starts-with-emoji",
+  "version": "1.0.0",
+  "description": "Check if a string starts with an emoji.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/starts-with-emoji.git"
+  },
+  "keywords": [
+    "emoji",
+    "starts",
+    "with"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/starts-with-emoji/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/starts-with-emoji#readme",
+  "dependencies": {
+    "regex-emoji": "^1.0.0",
+    "regex-parser": "^2.2.0"
+  },
+  "devDependencies": {
+    "tester": "^1.3.0"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  }
+}

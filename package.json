@@ -1,6 +1,6 @@
 {
   "name": "starts-with-emoji",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Check if a string starts with an emoji.",
   "main": "lib/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/starts-with-emoji#readme",
   "dependencies": {
-    "regex-emoji": "^1.0.0",
+    "regex-emoji": "^2.0.0",
     "regex-parser": "^2.2.0"
   },
   "devDependencies": {

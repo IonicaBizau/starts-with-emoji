@@ -6,5 +6,6 @@ tester.describe("run the tests", test => {
     test.it("detect when starts with emoji", () => {
         test.expect(startsWithEmoji(":house: sweet home")).toBe(true);
         test.expect(startsWithEmoji("What a nice :gift:!")).toBe(false);
+        test.expect(startsWithEmoji(":+1: foo")).toBe(true);
     });
 });

@@ -31,6 +31,12 @@ Checks if a string starts with emoji.
 #### Return
 - **Boolean** `true`, if the string starts with `:emoji:` snippet or `false` otherwise.
 
+### `regex()`
+Starts with emoji regex.
+
+#### Return
+- **RegExp** The regex value.
+
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 

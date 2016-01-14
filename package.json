@@ -1,6 +1,6 @@
 {
   "name": "starts-with-emoji",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Check if a string starts with an emoji.",
   "main": "lib/index.js",
   "scripts": {

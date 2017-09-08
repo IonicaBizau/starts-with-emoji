@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Checks if a string starts with emoji.
 
 #### Params
+
 - **String** `s`: The input string.
 
 #### Return

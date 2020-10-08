@@ -1,7 +1,7 @@
 const startsWithEmoji = require("../lib");
 
 console.log(startsWithEmoji(":house: sweet home!"));
-// => true
+// => { startsWithEmoji: true, emoji: ':house:' }
 
 console.log(startsWithEmoji("What a nice :gift:!"));
-// => false
+// => { startsWithEmoji: false, emoji: undefined }

@@ -77,10 +77,10 @@ yarn add starts-with-emoji
 const startsWithEmoji = require("starts-with-emoji");
 
 console.log(startsWithEmoji(":house: sweet home!"));
-// => true
+// => ':house:'
 
 console.log(startsWithEmoji("What a nice :gift:!"));
-// => false
+// => undefined
 ```
 
 
@@ -118,7 +118,7 @@ Checks if a string starts with emoji.
 - **String** `s`: The input string.
 
 #### Return
-- **Boolean** `true`, if the string starts with `:emoji:` snippet or `false` otherwise.
+- **String** If the string starts with `:emoji:` return `:emoji:` else undefined
 
 ### `regex()`
 Starts with emoji regex.

@@ -1,6 +1,6 @@
 {
   "name": "starts-with-emoji",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Check if a string starts with an emoji.",
   "main": "lib/index.js",
   "scripts": {
@@ -43,6 +43,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"

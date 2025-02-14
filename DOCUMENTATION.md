@@ -10,7 +10,7 @@ Checks if a string starts with emoji.
 - **String** `s`: The input string.
 
 #### Return
-- **String** If the string starts with `:emoji:` return `:emoji:` else undefined
+- **undefined|String** If the string starts with `:emoji:` return `:emoji:` else undefined
 
 ### `regex()`
 Starts with emoji regex.
